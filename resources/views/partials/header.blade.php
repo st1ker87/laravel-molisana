@@ -2,7 +2,7 @@
     <div id="logo">
         <img src=" {{ asset('img/logo.png')}}" alt="">
     </div>
-    <div class="main-menu">
+    <div class="main_menu">
         <ul>
             <li>
                 <a href="{{ route('page_home')}}">Home</a>

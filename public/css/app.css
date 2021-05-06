@@ -1,4 +1,93 @@
-header, footer {
-    height: 200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+#logo img{
+    max-width: 300px;
+    margin: 10px 0 30px 0;
+}
+
+.main_menu ul{
+    font-family: 'Barlow Condensed', sans-serif;
+    list-style: none;
+}
+
+.main_menu ul li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.main_menu ul li {
+    display: inline;
+    padding: 30px 15px;
+}
+.main_menu ul li:hover {
+    background-color: #B3E5FC;
+}
+
+.home {
+    position: relative;
+}
+.home_img {
+    max-width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.home_over {
+    background-color: #0000007d;
+    justify-content: center;
+    align-items: center;
+}
+.home:hover .home_over {
+    display: flex;
+    color: white;
+    font-size: 8em;
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DBECF3;
+    padding: 0 10px;
+}
+.title {
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 100%;
+    margin: 30px 0;
+    color: #025675;
+    font-size: 2.5em;
+}
+.pasta_card {
+    display: flex;
+    position: relative;
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
+}
+.pasta_card img {
+    width: 100%;
+}
+.card_over {
+    background-color: #ffffffab;
+    justify-content: center;
+    align-items: center;
+}
+.pasta_card:hover .card_over {
+    display: flex;
+}

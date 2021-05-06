@@ -3,5 +3,5 @@
 @section('title', 'News')
 
 @section('content')
-    <h1>Questa è la pagina news</h1>
+    <h1>Questa è la pagina  con le news</h1>
 @endsection
